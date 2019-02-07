@@ -12,6 +12,7 @@
 		476CEACC220C21A2006DBF7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 476CEACA220C21A2006DBF7E /* Main.storyboard */; };
 		476CEACE220C21A3006DBF7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 476CEACD220C21A3006DBF7E /* Assets.xcassets */; };
 		476CEAD1220C21A3006DBF7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 476CEACF220C21A3006DBF7E /* LaunchScreen.storyboard */; };
+		476CEAD9220C301C006DBF7E /* SearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476CEAD8220C301C006DBF7E /* SearchResult.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		476CEACD220C21A3006DBF7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		476CEAD0220C21A3006DBF7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		476CEAD2220C21A3006DBF7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		476CEAD8220C301C006DBF7E /* SearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResult.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +57,12 @@
 			isa = PBXGroup;
 			children = (
 				476CEAC6220C21A2006DBF7E /* AppDelegate.swift */,
-				476CEAC8220C21A2006DBF7E /* SearchViewController.swift */,
-				476CEACA220C21A2006DBF7E /* Main.storyboard */,
 				476CEACD220C21A3006DBF7E /* Assets.xcassets */,
-				476CEACF220C21A3006DBF7E /* LaunchScreen.storyboard */,
 				476CEAD2220C21A3006DBF7E /* Info.plist */,
+				476CEACF220C21A3006DBF7E /* LaunchScreen.storyboard */,
+				476CEACA220C21A2006DBF7E /* Main.storyboard */,
+				476CEAD8220C301C006DBF7E /* SearchResult.swift */,
+				476CEAC8220C21A2006DBF7E /* SearchViewController.swift */,
 			);
 			path = StoreSearch;
 			sourceTree = "<group>";
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				476CEAC9220C21A2006DBF7E /* SearchViewController.swift in Sources */,
+				476CEAD9220C301C006DBF7E /* SearchResult.swift in Sources */,
 				476CEAC7220C21A2006DBF7E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
