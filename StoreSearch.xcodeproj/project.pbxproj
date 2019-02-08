@@ -16,6 +16,7 @@
 		476CEADF220C4473006DBF7E /* SearchResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476CEADE220C4473006DBF7E /* SearchResultCell.swift */; };
 		476CEAE1220C4F35006DBF7E /* NothingFound.xib in Resources */ = {isa = PBXBuildFile; fileRef = 476CEAE0220C4F35006DBF7E /* NothingFound.xib */; };
 		47AB8446220D7BA700A5C949 /* LoadingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47AB8445220D7BA700A5C949 /* LoadingCell.xib */; };
+		47AB8448220DC13D00A5C949 /* UIImageView+DownloadImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47AB8447220DC13D00A5C949 /* UIImageView+DownloadImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		476CEADE220C4473006DBF7E /* SearchResultCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultCell.swift; sourceTree = "<group>"; };
 		476CEAE0220C4F35006DBF7E /* NothingFound.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NothingFound.xib; sourceTree = "<group>"; };
 		47AB8445220D7BA700A5C949 /* LoadingCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoadingCell.xib; sourceTree = "<group>"; };
+		47AB8447220DC13D00A5C949 /* UIImageView+DownloadImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+DownloadImage.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 				476CEADE220C4473006DBF7E /* SearchResultCell.swift */,
 				476CEAD8220C301C006DBF7E /* SearchResult.swift */,
 				476CEAC8220C21A2006DBF7E /* SearchViewController.swift */,
+				47AB8447220DC13D00A5C949 /* UIImageView+DownloadImage.swift */,
 				47AB8445220D7BA700A5C949 /* LoadingCell.xib */,
 			);
 			path = StoreSearch;
@@ -153,6 +156,7 @@
 				476CEAD9220C301C006DBF7E /* SearchResult.swift in Sources */,
 				476CEADF220C4473006DBF7E /* SearchResultCell.swift in Sources */,
 				476CEAC7220C21A2006DBF7E /* AppDelegate.swift in Sources */,
+				47AB8448220DC13D00A5C949 /* UIImageView+DownloadImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
