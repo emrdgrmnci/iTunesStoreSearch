@@ -16,6 +16,7 @@
 		476CEADB220C3BE5006DBF7E /* SearchResultCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 476CEADA220C3BE5006DBF7E /* SearchResultCell.xib */; };
 		476CEADF220C4473006DBF7E /* SearchResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476CEADE220C4473006DBF7E /* SearchResultCell.swift */; };
 		476CEAE1220C4F35006DBF7E /* NothingFound.xib in Resources */ = {isa = PBXBuildFile; fileRef = 476CEAE0220C4F35006DBF7E /* NothingFound.xib */; };
+		47AB8446220D7BA700A5C949 /* LoadingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47AB8445220D7BA700A5C949 /* LoadingCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		476CEADA220C3BE5006DBF7E /* SearchResultCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchResultCell.xib; sourceTree = "<group>"; };
 		476CEADE220C4473006DBF7E /* SearchResultCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultCell.swift; sourceTree = "<group>"; };
 		476CEAE0220C4F35006DBF7E /* NothingFound.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NothingFound.xib; sourceTree = "<group>"; };
+		47AB8445220D7BA700A5C949 /* LoadingCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoadingCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				476CEADE220C4473006DBF7E /* SearchResultCell.swift */,
 				476CEAD8220C301C006DBF7E /* SearchResult.swift */,
 				476CEAC8220C21A2006DBF7E /* SearchViewController.swift */,
+				47AB8445220D7BA700A5C949 /* LoadingCell.xib */,
 			);
 			path = StoreSearch;
 			sourceTree = "<group>";
@@ -136,6 +139,7 @@
 			files = (
 				476CEAD1220C21A3006DBF7E /* LaunchScreen.storyboard in Resources */,
 				476CEAE1220C4F35006DBF7E /* NothingFound.xib in Resources */,
+				47AB8446220D7BA700A5C949 /* LoadingCell.xib in Resources */,
 				476CEACE220C21A3006DBF7E /* Assets.xcassets in Resources */,
 				476CEADB220C3BE5006DBF7E /* SearchResultCell.xib in Resources */,
 				476CEACC220C21A2006DBF7E /* Main.storyboard in Resources */,
